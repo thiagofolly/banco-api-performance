@@ -18,7 +18,7 @@ export default function () {
     const url = 'http://localhost:3000/login'
 
     postLogin.username = 'junio.lima'
-    const payload = JSON.stringify(postLogin);
+    const payload = JSON.stringify(postLogin)
 
     const params = {
         headers: {
@@ -34,4 +34,4 @@ export default function () {
     })
 
     sleep(1)
-};
+}
